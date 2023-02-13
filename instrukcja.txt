@@ -1,0 +1,29 @@
+Plik wagi_kryteriow.csv powinien składać się z 3 wierszy.
+- pierwszy wiersz zawiera nazwy kryteriów
+- drugi wiersz zawiera dolne ograniczenie wagi danego kryterium
+- trzeci wiersz zawiera górne ograniczenie wagi danego kryterium
+
+W pliku macierz_wejsciowa.csv:
+- pierwszy wiersz zawiera nazwy kryteriów
+- drugi wiersz zawiera dolne ograniczenie oceny pierwszego produktu dla kolejnych kryteriów
+- trzeci wiersz zawiera górne ograniczenie oceny pierwszego produktu dla kolejnych kryteriów
+- czwarty wiersz zawiera dolne ograniczenie oceny drugiego produktu dla kolejnych kryteriów
+- piaty wiersz zawiera górne ograniczenie oceny drugiego produktu dla kolejnych kryteriów
+itd.
+
+Plik nazwy_produktow.csv zawiera jeden wiersz z nazwami produktów.
+
+W pliku uzyskany_ranking_topsis.csv znajduje się ranking produktów uzyskany metodą TOPSIS.
+W pliku uzyskany_ranking_grey.csv znajduje się ranking produktów uzyskany metodą Grey.
+Wyniki obliczeń pośrednich wypisują się w konsoli programu.
+
+Wartości w kolejnych kolumnach oddzielone są średnikiem.
+Wartości dziesiętne powinny być oddzielone kropką, nie mogą być przecinkiem.
+Wszystkie wartości muszą być liczbami nieujemnymi.
+Dolne ograniczenie nie może być większe niż górne ograniczenie.
+Umieszczanie nazw w "cudzysłowach" umożliwia wstawienie średnika wewnątrz nazwy. 
+
+Uruchomienie programu:
+- wejść do wiersza poleceń cmd
+- aktywować środowisko wirtualne i zainstalowac biblioteki
+- uruchomić program poleceniem "python program.py"
